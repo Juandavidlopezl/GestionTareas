@@ -1,0 +1,55 @@
+/* Estilo general */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+}
+
+.container {
+  width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 3px solid aqua;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Estilo de la tabla */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+  
+th {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  text-align: center;
+}
+
+/* Encabezado de la tabla */
+
+thead {
+  background-color: #f9f9f9;
+}
+
+/* Filas pares e impares */
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Resaltar la fila al pasar el mouse */
+
+tbody tr:hover {
+  background-color: #ddd;
+}

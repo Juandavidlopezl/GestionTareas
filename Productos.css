@@ -1,0 +1,62 @@
+/* Estilo general */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 150px;
+    background-color: #160079;
+  }
+  
+  .container {
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid aqua;
+  }
+  
+  h1 {
+    text-align: center;
+    color: aqua;
+  }
+  
+  /* Estilo de la tabla */
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: aqua;
+    border-color: aqua;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #160079;
+    color: white;
+  }
+  
+  th {
+    text-align: center;
+   
+  }
+ 
+  
+  /* Encabezado de la tabla */
+  
+  thead {
+    background-color: #f9f9f9;
+    color: aqua;
+  }
+  
+  /* Filas pares e impares */
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Resaltar la fila al pasar el mouse */
+  
+  tbody tr:hover {
+    background-color: #ddd;
+  }
+  

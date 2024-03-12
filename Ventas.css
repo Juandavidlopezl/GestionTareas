@@ -1,0 +1,32 @@
+/* ... existing styles ... */
+
+.dropdown-menu {
+     display: none; /* Hide the menu initially */
+     position: absolute; /* Position the menu relative to the button */
+     left: 0; /* Position the menu on the left side */
+     top: 100%; /* Position the menu below the button */
+     background-color: #160079; /* Match the header background color */
+     list-style: none; /* Remove default list styling */
+     padding: 0;
+     margin: 0;
+   }
+   
+   .dropdown-menu li {
+     margin: 0;
+     padding: 10px 20px;
+   }
+   
+   .dropdown-menu li a {
+     color: white; /* Match the text color in the header */
+     text-decoration: none;
+     transition: all 0.3s ease-in-out;
+   }
+   
+   .dropdown-menu li a:hover {
+     background-color: aqua; /* Highlight on hover */
+   }
+   
+   .show { /* Add this class to show the menu */
+     display: block;
+   }
+   
